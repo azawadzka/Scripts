@@ -52,6 +52,11 @@ if __name__ == '__main__':
     # series[0] = "roberta"   # <-- this doesn't change the original DataFrame
     # print(df)
 
+    df = pd.DataFrame({"name": ["bert", "albert"]})
+    series = df["name"].str.title() # not a copy at all
+    series[0] = "roberta"   # <-- this doesn't change the original DataFrame
+    print(df)
+
     # Group similar operations
     # df = pd.DataFrame({"name": ["bert", "albert"]})
     # df = pd.concat([
@@ -61,9 +66,9 @@ if __name__ == '__main__':
     # ], axis=1)
 
     # Group similar operations
-    df = pd.DataFrame({"name": ["bert", "albert"]})
-    df["name_len"] = create_name_len_col(df.name)
-    print(df)
+    # df = pd.DataFrame({"name": ["bert", "albert"]})
+    # df["name_len"] = create_name_len_col(df.name)
+    # print(df)
 
     ##
     # df = pd.DataFrame({"name": ["bert", "albert"]})
