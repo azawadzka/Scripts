@@ -54,3 +54,8 @@ assert seven(times(five())) == 35
 assert four(plus(nine())) == 13
 assert eight(minus(three())) == 5
 assert six(divided_by(two())) == 3
+
+# Most inspired by solution:
+# id_ = lambda x: x
+# number = lambda x: lambda f=id_: f(x)
+# zero, one, two, three, four, five, six, seven, eight, nine = map(number, range(10))
