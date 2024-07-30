@@ -4,6 +4,7 @@ brew install openssl readline sqlite3 xz zlib
 brew install pyenv pyenv-virtualenv
 
 pyenv update
+brew upgrade pyenv
 
 pyenv install --list
 pyenv install --list | grep " 3\.[678]"
