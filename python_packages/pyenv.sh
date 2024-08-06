@@ -3,7 +3,12 @@
 brew install openssl readline sqlite3 xz zlib
 brew install pyenv pyenv-virtualenv
 
+>> ~/.zshrc
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/shims:$PATH"
+
 pyenv update
+brew upgrade pyenv
 
 pyenv install --list
 pyenv install --list | grep " 3\.[678]"
