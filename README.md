@@ -1,7 +1,9 @@
 # Scripts
-Various scripts
+Various scripts. The interesting ones are:
+- [wikipedia-searching genAI agent WIP](agentic_genai/wikipedia_searching_agent.ipynb)
 
 ## List:
+- `agentic_genai` - experiments on agentic design, mostly for [TravellerChatbot project](https://github.com/azawadzka/TravellerChatbot)
 - `codewars` - interesting solved codewars problems
 - `medium` - code resources for [my medium posts](https://medium.com/@azawadzka)
 - `neural_networks`
