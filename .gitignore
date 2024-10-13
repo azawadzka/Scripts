@@ -2,5 +2,5 @@
 .idea/
 **/.DS_Store
 **/mlruns/
-python_packages/data/ignored/*
-!python_packages/!data/ignored/.gitkeep
+data/ignored/*
+!data/ignored/.gitkeep

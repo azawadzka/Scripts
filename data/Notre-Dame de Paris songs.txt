@@ -1,0 +1,51 @@
+1	Ouverture	Overture	Orchestra
+2	Le temps des cathédrales	The Age of the Cathedrals	Gringoire
+3	Les sans-papiers	The Refugees	Clopin, Chorus
+4	Intervention de Frollo	Frollo's Intervention	Frollo, Phoebus
+5	Bohémienne	The Bohemian Song	Esmeralda
+6	Esmeralda tu sais	Esmeralda, You See	Clopin, Esmeralda
+7	Ces diamants-là	So Look No More for Love	Fleur-de-Lys, Phoebus
+8	La fête des fous	The Feast of Fools	Gringoire, Chorus
+9	Le pape des fous	The King of Fools	Quasimodo
+10	La sorcière	The Sorceress	Frollo, Quasimodo
+11	L'enfant trouvé	The Foundling	Quasimodo
+12	Les portes de Paris	The Doors of Paris	Gringoire
+13	Tentative d'enlèvement	Kidnap Attempt	Phoebus, Esmeralda
+14	La cour des miracles	The Court of the Miracles	Clopin, Esmeralda, Chorus
+15	Le mot Phoebus	The Word Phoebus	Esmeralda, Gringoire
+16	Beau comme le soleil	Shining Like the Sun	Esmeralda, Fleur-de-Lys
+17	Déchiré	Torn Apart	Phoebus
+18	Anarkia	Anarchy	Frollo and Gringoire
+19	A boire	Water, Please!	Frollo, Quasimodo, Chorus
+20	Belle	Belle (Is the Only Word)	Quasimodo, Frollo, Phoebus
+21	Ma maison c'est ta maison	Home in the Sky	Quasimodo and Esmeralda
+22	Ave Maria païen	Pagan Ave Maria	Esmeralda
+23	Si tu pouvais voir en moi	If You Could See Inside Me	Quasimodo
+24	Tu vas me détruire	Your Love Will Kill Me	Frollo
+25	L'ombre	The Shadow	Phoebus and Frollo
+26	Le val d'amour	At Val d'Amour	Gringoire, Phoebus, Chorus
+27	La volupté	The Voluptary	Phoebus and Esmeralda
+28	Fatalité	Destiny	Gringoire, Frollo, Quasimodo, Clopin, Fleur-de-Lys
+29	Florence	Talk to Me of Florence	Frollo and Gringoire
+30	Les cloches	The Bells	Gringoire, Frollo, Quasimodo, Chorus
+31	Où est-elle?	Where Is She?	Frollo, Gringoire, Clopin
+32	Les oiseaux qu'on met en cage	The Birds They Put in Cages	Esmeralda and Quasimodo
+33	Condamnés	Castaway	Clopin and Chorus
+34	Le procès	The Trial	Frollo and Esmeralda
+35	La torture	Torturer	Frollo and Esmeralda
+36	Etre prêtre et aimer une femme	I'm a Priest	Frollo
+37	Phoebus	Phoebus, If You Can Hear Me	Esmeralda
+38	Je reviens vers toi	To Get Back to You	Phoebus
+39	La monture	My Heart If You Will Swear	Fleur-de-Lys
+40	Visite de Frollo à Esmeralda	Frollo's Visit to Esmeralda	Frollo and Esmeralda
+41	Un matin tu dansais	One Bright Morning You Danced	Frollo and Esmeralda
+42	Libérés	Free Today	Quasimodo, Clopin, Esmeralda, Gringoire, Chorus
+43	Lune	Moon	Gringoire
+44	Je te laisse un sifflet	This Small Whistle I Leave You	Quasimodo and Esmeralda
+45	Dieu que le monde est injuste	God, You Made the World All Wrong	Quasimodo
+46	Vivre	Live for the One I Love	Esmeralda
+47	L'attaque de Notre-Dame	Attack of Notre-Dame	Clopin, Frollo, Phoebus, Esmeralda, Gringoire, Chorus
+48	Déportés	By Royal Law	Phoebus and Chorus
+49	Mon maître, mon sauveur	My Master, My Savior	Quasimodo and Frollo
+50	Donnez-la moi	Give Her to Me	Quasimodo
+51	Danse mon Esmeralda	Dance My Esmeralda	Quasimodo
