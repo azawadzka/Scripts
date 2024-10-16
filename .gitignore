@@ -2,5 +2,6 @@
 .idea/
 **/.DS_Store
 **/mlruns/
+**/__pycache__/
 data/ignored/*
 !data/ignored/.gitkeep

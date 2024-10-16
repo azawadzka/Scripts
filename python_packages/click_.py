@@ -12,7 +12,7 @@ def validate_version(ctx, param, value):
     VERSIONS = ['gpt-4', 'gpt-4o', 'gpt-o1']
     value = value.lower()
     if value not in VERSIONS:
-        raise click.BadParameter(f"Model must be oe of: {VERSIONS}")
+        raise click.BadParameter(f"Model must be one of: {VERSIONS}")
     return value
 
 @cli.command()
@@ -28,9 +28,9 @@ def ask_claude():
 
 
 if __name__ == '__main__':
-    """
+    """shell
     python click_.py ask-chatgpt  # functions as arguments; will prompt for model; will use callback
-    python click_.py ask-chatgpt --model GPT-o1  # 
+    python click_.py ask-chatgpt --model GPT-o1  # arg instead of prompt
     python click_.py ask-chatgpt ask-claude  # chaining
     export MODEL=gpt-4; python click_.py ask-chatgpt  # will use env
     python click_.py ask-claude  # is pink but doesn't blink :(
@@ -38,9 +38,7 @@ if __name__ == '__main__':
     cli()
 
 
-
 """Can integrate with setuptools entry_points
-
 from setuptools import setup
 
 setup(
@@ -59,7 +57,6 @@ setup(
 """
 
 """Arguments vs. options
-
 Arguments can do less than options. The following features are only available for options:
 - automatic prompting for missing input
 - act as flags (boolean or otherwise)
@@ -72,7 +69,6 @@ cli = click.CommandCollection(sources=[cli1, cli2])
 """
 
 """Envs with registered prefixes are recognized automatically if they match option name
-
 @cli.command()
 @click.option('--username')
 def greet(username):
@@ -84,13 +80,11 @@ export GREETER_USERNAME=John
 """
 
 """Arguments support object handling
-
 @click.argument('input', type=click.File('rb'))
 @click.argument('filename', type=click.Path(exists=True))
 """
 
 """Testing
-
 from click.testing import CliRunner
 from sync import cli
 
@@ -102,5 +96,5 @@ def test_sync():
   assert 'Syncing' in result.output
 """
 
-"""Has progressbar, can open apps
+"""Has progressbar, can open apps, can handle context
 """
