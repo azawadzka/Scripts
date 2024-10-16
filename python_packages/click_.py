@@ -29,11 +29,11 @@ def ask_claude():
 
 if __name__ == '__main__':
     """shell
-    python click_.py ask-chatgpt  # functions as arguments; will prompt for model; will use callback
-    python click_.py ask-chatgpt --model GPT-o1  # arg instead of prompt
-    python click_.py ask-chatgpt ask-claude  # chaining
+    python click_.py ask-chatgpt                      # functions as arguments; will prompt for model; will use callback
+    python click_.py ask-chatgpt --model GPT-o1       # arg instead of prompt
+    python click_.py ask-chatgpt ask-claude           # chaining
     export MODEL=gpt-4; python click_.py ask-chatgpt  # will use env
-    python click_.py ask-claude  # is pink but doesn't blink :(
+    python click_.py ask-claude                       # is pink but doesn't blink :(
     """
     cli()
 
