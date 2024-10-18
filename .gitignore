@@ -1,7 +1,9 @@
-.env
+.DS_Store
+.gitkeep
 .idea/
-**/.DS_Store
-**/mlruns/
-**/__pycache__/
-data/ignored/*
-!data/ignored/.gitkeep
+__pycache__/
+mlruns/
+
+/.env
+/data/ignored/*
+/python_packages/manim/media/
