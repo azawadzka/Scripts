@@ -1,9 +1,10 @@
 .DS_Store
-.gitkeep
 .idea/
 __pycache__/
+ignored/
 mlruns/
 
 /.env
-/data/ignored/*
 /python_packages/manim/media/
+
+!.gitkeep
