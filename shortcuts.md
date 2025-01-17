@@ -6,3 +6,4 @@
 - `shift + cmd + V` preview markdown
 
 ## PyCharm
+- `shift + opt + J` join lines 
