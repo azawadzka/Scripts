@@ -1,4 +1,4 @@
-# https://realpython.com/intro-to-pyenv/
+https://realpython.com/intro-to-pyenv/
 
 brew install openssl readline sqlite3 xz zlib
 brew install pyenv pyenv-virtualenv
@@ -17,9 +17,10 @@ pyenv install -v 3.7.2
 pyenv versions
 ls ~/.pyenv/versions/
 
-pyenv uninstall 2.7.15
 rm -rf ~/.pyenv/versions/2.7.15
-
+pyenv uninstall 2.7.15
+pyenv uninstall 2.7.15/envs/env_name
+ 
 pyenv global 3.10.14
 pyenv global system
 pyenv version
