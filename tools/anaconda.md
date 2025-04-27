@@ -2,8 +2,6 @@
 
 [Official Anaconda Documentation](https://docs.anaconda.com/anaconda/)
 
----
-
 ## Installation
 
 - Download the installer from the [Anaconda Distribution page](https://www.anaconda.com/products/distribution)
@@ -12,16 +10,12 @@
   bash ~/Downloads/Anaconda3-*-MacOSX-x86_64.sh
   ```
 
----
-
 ## Update Conda and Anaconda
 
 ```bash
 conda update conda
 conda update anaconda
 ```
-
----
 
 ## Python Versions
 
@@ -32,8 +26,6 @@ conda update anaconda
   conda search "^python$" --channel conda-forge
   ```
 
----
-
 ## Create a New Environment
 
 - With a specific Python version and package:
@@ -41,8 +33,6 @@ conda update anaconda
   ```bash
   conda create -n myenv python=3.10 ipython
   ```
-
----
 
 ## Manage Environments
 
@@ -74,8 +64,6 @@ conda update anaconda
   conda deactivate
   ```
 
----
-
 ## Package Management
 
 - Install packages in the current environment:
@@ -101,8 +89,6 @@ conda update anaconda
   ```bash
   conda remove package_name
   ```
-
----
 
 ## Miscellaneous
 
