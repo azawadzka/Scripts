@@ -32,6 +32,17 @@ echo "conda activate myenv" >> ~/.zshrc
 conda activate myenv
 conda deactivate
 
+# Install packages in the current environment
+conda install numpy pandas matplotlib
+# To install from the conda-forge channel:
+conda install -c conda-forge scikit-learn
+
+# List installed packages
+conda list
+
+# Remove a package
+conda remove package_name
+
 # Check Python version in environment
 python -V
 
