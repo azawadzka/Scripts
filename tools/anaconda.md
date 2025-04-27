@@ -41,15 +41,6 @@ which pip
 # List available conda commands
 conda --help
 
-# Environment search order:
-# 1. conda activate <env_name>   # activate specific environment
-# 2. conda deactivate           # back to base or system Python
-
-# Create a virtual environment (alternative to conda envs, using venv)
-python -m venv myvenv
-source myvenv/bin/activate
-deactivate
-
 # Install ipykernel in the environment (conda version)
 conda install ipykernel
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
