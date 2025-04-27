@@ -43,5 +43,5 @@ conda --help
 
 # Install ipykernel in the environment (conda version)
 conda install ipykernel
-python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+python -m ipykernel install --user
 ```
