@@ -1,5 +1,6 @@
 https://realpython.com/intro-to-pyenv/
 
+```
 brew install openssl readline sqlite3 xz zlib
 brew install pyenv pyenv-virtualenv
 
@@ -44,3 +45,4 @@ python -V
 # ipykernel
 python -m pip install ipykernel
 python -m ipykernel install --user
+```
